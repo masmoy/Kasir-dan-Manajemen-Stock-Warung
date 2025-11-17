@@ -1,0 +1,42 @@
+/* Menggunakan Font Poppins */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa; /* Warna latar belakang sedikit abu-abu */
+}
+
+/* Kartu Metrik di Atas */
+.card-metric {
+    border-radius: 0.75rem; /* Sudut kartu lebih tumpul */
+    transition: transform 0.2s ease;
+}
+.card-metric:hover {
+    transform: translateY(-3px);
+}
+
+/* Grid Menu Utama (Paling Penting) */
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    border-radius: 0.75rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    height: 100%;
+}
+
+.menu-item:hover {
+    transform: scale(1.05); /* Sedikit membesar saat disentuh */
+    box-shadow: 0 .25rem .75rem rgba(0,0,0,.1);
+}
+
+.menu-item i {
+    font-size: 1.75rem; /* Ukuran ikon lebih besar */
+    margin-bottom: 0.5rem;
+}
+
+.menu-item span {
+    font-size: 0.8rem; /* Ukuran teks menu */
+}
